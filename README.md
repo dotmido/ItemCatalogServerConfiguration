@@ -108,6 +108,7 @@ and paste follw to `catalog.wsgi` file just created to handle requests to our ap
     </VirtualHost>
 
 ### install Catalog app dependencies
+
 > $ sudo pip install Flask 
 > $ sudo pip install httplib2 
 > $ sudo pip install requests 
