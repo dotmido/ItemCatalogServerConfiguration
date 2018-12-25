@@ -119,7 +119,12 @@ and paste follw to `catalog.wsgi` file just created to handle requests to our ap
 
 ### Third party resources 
 [How to Deploy the Flask app as Ubuntu service](https://medium.com/@manivannan_data/how-to-deploy-the-flask-app-as-ubuntu-service-399c0adf3606)
+
 [Deployment Options](http://flask.pocoo.org/docs/1.0/deploying/)
+
 [Amazon Lightsail Tutorial](https://www.edureka.co/blog/amazon-lightsail-tutorial/)
+
 [SSH and connecting to your Lightsail instance](https://lightsail.aws.amazon.com/ls/docs/en/articles/understanding-ssh-in-amazon-lightsail)
+
 [Postgresql Documentation](https://www.postgresql.org/docs/)
+
