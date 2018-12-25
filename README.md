@@ -34,7 +34,7 @@ on local machine generate key pair using this command:
 > $ ssh-keygen
 
 then copy generated public key to authorized_keys file on lightsail machine:
->$ sudo nano /home/grader/.ssh/authorized_keys
+> $ sudo nano /home/grader/.ssh/authorized_keys
 > $ sudo chmod 700 /home/grader/.ssh
 > $ sudo chmod 644 /home/grader/.ssh/authorized_keys
 
@@ -88,8 +88,8 @@ and paste follw to `catalog.wsgi` file just created to handle requests to our ap
 > $ sudo -u postgres createuser -P catalog
 
 #### configure apache2 to handle requests
->$ sudo touch /etc/apache2/sites-enabled/catalog.conf
->$ sudo nano /etc/apache2/sites-enabled/catalog.conf
+> $ sudo touch /etc/apache2/sites-enabled/catalog.conf
+> $ sudo nano /etc/apache2/sites-enabled/catalog.conf
 
     <VirtualHost *:80>
     ServerAdmin mjavax@gmail.com
@@ -109,9 +109,10 @@ and paste follw to `catalog.wsgi` file just created to handle requests to our ap
 
 ### install Catalog app dependencies
 
-> $ sudo pip install Flask 
-> $ sudo pip install httplib2 
-> $ sudo pip install requests 
-> $ sudo pip install oauth2client 
-> $ sudo pip install sqlalchemy
-> $ sudo pip install flask_bootstrap
+    $ sudo pip install Flask  
+    $ sudo pip install httplib2  
+    $ sudo pip install requests  
+    $ sudo pip install oauth2client  
+    $ sudo pip install sqlalchemy 
+    $ sudo pip install flask_bootstrap
+
